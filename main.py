@@ -34,6 +34,6 @@ if __name__ == '__main__':
     from kivy.utils import get_color_from_hex
     from kivy.core.text import LabelBase
     Window.clearcolor = get_color_from_hex('#4b5162')
-    LabelBase.register(name='Roboto', fn_regular='Roboto-Thin.ttf',
-                       fn_bold='Roboto-Medium.ttf')
+    LabelBase.register(name='Roboto', fn_regular='font/Roboto-Thin.ttf',
+                       fn_bold='font/Roboto-Medium.ttf')
     StopWatchApp().run()
